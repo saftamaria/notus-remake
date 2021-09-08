@@ -3,12 +3,12 @@
 
 <head>
  {% include auth/head-auth.html %}
- {% include auth/nav-auth.html %}
+
 </head>
 
 <body>
-
-    {{content}}
+    {% include auth/nav-auth.html %}
+    {% include auth/section-login.html %}
     {% include auth/script-auth.html %}
    
 </body>
