@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
- {% include nav-auth.html %}
+ {% include head.html %}
+ {% include auth/nav-auth.html %}
 </head>
 
 <body>
 
     {{content}}
-    {% include script-auth.html %}
+    {% include auth/script-auth.html %}
    
 </body>
-{% include footer-auth.html %}
+{% include auth/footer-auth.html %}
 </html>
