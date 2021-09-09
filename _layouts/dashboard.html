@@ -2,14 +2,15 @@
 <html lang="en">
 
 <head>
- {% include auth/head-auth.html %}
+    {% include dashboard/head-dash.html %}
 
 </head>
 
 <body class="text-blueGray-700 antialiased">
+
     {{content}}
-    {% include auth/script-auth.html %}
+    {% include dashboard/script-dash.html %}
    
 </body>
-{% include auth/footer-auth.html %}
+{% include dashboard/footer-dash.html %}
 </html>
